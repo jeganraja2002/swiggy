@@ -40,7 +40,8 @@ var a=[
 						<span class="fw-bold">.</span>
 						<div><i class="fa fa-inr" aria-hidden="true"></i><span  class="price">${e.rs}</span> for two</div>
 					</div>
-					<button onclick="add(${e.id})" class="border-0 bg-warning  py-2 text-center rounded active text-light w-100 mt-2 opacityy add_card">Order</button>
+					<button onclick="add(${e.id})" class=" d-lg-block d-none border-0 bg-warning  py-2 text-center rounded active text-light w-100 mt-2 opacityy add_card">Order</button>
+					<button onclick="add(${e.id})" class=" d-lg-none d-block border-0 bg-warning  py-2 text-center rounded active text-light w-100 mt-2 add_card">Order</button>
 				</div>
 			</div>`
 
